@@ -1,0 +1,58 @@
+@use "./variables.scss" as v;
+body{
+    background-color: var(--dark);
+}
+.main-body{
+    background-color: var(--grey-white);
+}
+#banner{
+    // background-color: v.$bg-purple;
+    min-height: 400px;
+    position: relative;
+}
+#offer{
+    // background-color: v.$bg-green;
+    min-height: 400px;
+    position: relative;
+}
+#skill{
+    // background-color: v.$bg-blue;
+    min-height: 400px;
+    position: relative;
+}
+#resume{
+    // background-color: v.$bg-yellow;
+    min-height: 400px;
+    position: relative;
+}
+#portfolio{
+    // background-color: v.$bg-pink;
+    min-height: 400px;
+    position: relative;
+}
+#clients{
+    // background-color: v.$bg-old-gold;
+    min-height: 400px;
+    position: relative;
+}
+#stories{
+    // background-color: v.$bg-battery-charged;
+    min-height: 400px;
+    position: relative;
+}
+#contact{
+    // background-color: v.$bg-purple-plum;
+    min-height: 400px;
+    position: relative;
+}
+// menu style
+.menu-section{
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-between;
+}
+.menu-title{
+    text-align: center;
+    width: 100%;
+}
